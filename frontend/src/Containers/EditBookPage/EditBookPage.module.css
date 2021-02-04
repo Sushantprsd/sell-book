@@ -1,0 +1,192 @@
+.AddProduct {
+    background-color: #f2f3f7;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    padding-top: 160px;
+}
+
+
+.AddProduct form {
+    padding: 0.5rem;
+    width: 95%;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+.EditFormContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.InputField {
+    width: 100%;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.FileInput {
+    padding-top: 1rem;
+    padding-bottom: 1.4rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.PreviewCoverPhoto {
+    width: 90%;
+    height: 13rem;
+    overflow: hidden;
+    margin-bottom: 1.3rem;
+}
+
+.PreviewCoverPhoto img {
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.TagsContainer {
+    width: 100%;
+    min-height: 2rem;
+    height: 3.7rem;
+    border-radius: 5px;
+    border: 1px solid #245160;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.AllTags {
+    width: 85%;
+    height: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+.AllTags .Tag {
+    min-width: 4rem;
+    background-color: #245160da;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    margin-right: 0.4rem;
+    padding: 0.5rem;
+    height: 100%;
+}
+.AllTags .Tag h4 {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+.AllTags h4 {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    text-align: center;
+    width: 100%;
+    color: #245160;
+}
+.AddTags {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TagPageModel {
+    width: 100%;
+    height: 60vh;
+    background-color: white;
+    padding: 0.7rem;
+    padding-top: 2rem;
+}
+
+.TagPageModel {
+    display: flex;
+    flex-direction: column;
+}
+.TagPageModel .AddTagFormContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: 5rem;
+    border-bottom: 2px solid #b6b6b6;
+}
+.TagPageModel .AddTagFormContainer input {
+    outline: none;
+    border: none;
+    width: 70%;
+    border-bottom: 2px solid #245160;
+    font-size: 22px;
+    height: 2.4rem;
+    padding-bottom: 0px;
+    margin-right: 1.6rem;
+    color: #696969;
+}
+.TagPageModel .AddTagFormContainer input:focus {
+    outline: none;
+}
+
+.AllTagsAdded {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 1.4rem;
+}
+
+.Tag {
+    min-width: 2rem;
+    padding: 0.5rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+    background-color: #245160da;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0.7rem;
+    margin-bottom: 0.8rem;
+}
+
+.Tag h4 {
+    font-size: 12px;
+    line-height: 0px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.SubmitButton {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 95%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}

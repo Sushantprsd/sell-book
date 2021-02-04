@@ -1,0 +1,173 @@
+.Toolbar {
+    width: 100%;
+    height: 135px;
+    background-color: white;
+    box-shadow: 0 3px 5px -1px #00000065;
+    border-bottom: 3px solid #14323b;
+}
+
+.MainToolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding-right: 0.5rem;
+}
+.DrawerToggle {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0.5rem;
+}
+.ToolbarLogo {
+    height: 100%;
+    width: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ToolbarLogo img {
+    width: 100%;
+}
+
+.SearchBarContainer {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    width: 100%;
+    height: 50px;
+    flex-grow: 1;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.SearchBarContainer form {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    padding-left: 0.6rem;
+    justify-content: flex-start;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 1px 1px 3px 0px #888888;
+    border: 1px solid rgb(248, 248, 248);
+    border-radius: 4px;
+}
+
+.SearchBarContainer form input {
+    box-sizing: border-box;
+    flex-grow: 1;
+    margin-right: 0.4rem;
+    height: 85%;
+    display: inline-block;
+    border: none;
+    margin-left: 0.7rem;
+    padding: 0%;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #6e6e6e;
+}
+
+.SearchBarContainer form input:focus {
+    outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.SideDrawerBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.363);
+    z-index: 700;
+    display: none;
+}
+.SideDrawerOpen {
+    display: block;
+}
+.SearchResults {
+    padding-top: 60px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 700;
+    height: 135px;
+}
+.SearchResultsContainer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    padding: 0.7rem;
+    padding-top: 145px;
+    transform: translateY(-100vh);
+    transition: all 0.15s ease-out;
+}
+
+.SearchResultsContainerOpen {
+    transform: translateY(0vh);
+}
+
+.SearchResult {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+
+    width: 100%;
+    height: 4.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(148, 140, 140);
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.SearchResult div {
+    width: 90%;
+}
+
+.SearchResult div h3 {
+    width: 100%;
+    color: #245160;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5rem;
+    text-decoration: none;
+}
+
+.SearchResult div h4 {
+    width: 80%;
+    color: #29373b;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5rem;
+    text-decoration: none;
+}

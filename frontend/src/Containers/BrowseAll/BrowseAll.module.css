@@ -1,0 +1,335 @@
+.BrowseAll {
+    background-color: white;
+    min-height: 100vh;
+    padding-top: 140px;
+    margin-bottom: 6rem;
+}
+.Progress {
+    width: 100%;
+    height: calc(100vh - 140px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Filters {
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    width: 100%;
+    height: 4.8rem;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgb(243, 248, 248); */
+    background-color: #245160;
+    position: fixed;
+    z-index: 400;
+    bottom: 0;
+    left: 0;
+}
+
+.Filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.Filter h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #245160;
+}
+.LayoutType {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.FiltersSideDrawer {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 600;
+    background-color: white;
+    transition: transform 0.1s ease-out;
+    padding: 1rem;
+}
+.SideDrawerFiltersContainers {
+    width: 100%;
+    height: 100%;
+}
+.InDevelopmentDialog {
+    width: 100%;
+    height: 60vh;
+}
+.InDevelopmentDialog img {
+    width: 100%;
+    height: 100%;
+}
+.SideDrawerFiltersContainers h3 {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    color:#245160 ;
+}
+.Open {
+    transform: translateX(0%);
+}
+
+.Close {
+    transform: translateX(-110%);
+}
+
+.CloseButtonFilterSideDrawer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.CloseButtonFilterSideDrawer div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding: 0.6rem;
+    border-radius: 10px;
+    width: 8rem;
+}
+
+.ResultsTile {
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.ResultTile {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.2rem;
+}
+
+.ResultTile .ImgContainer {
+    width: 25%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ResultTile .ImgContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.ResultTile .ResultDescription {
+    height: 100%;
+    width: 75%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.ResultTile .ResultDescription h1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.3rem;
+    font-size: 16px;
+    line-height: 16px;
+    width: 100%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.ResultTile .ResultDescription h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    width: 100%;
+    text-align: left;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    text-transform: capitalize;
+}
+
+.ResultTile .ResultDescription p {
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    font-size: 12px;
+    line-height: 14px;
+    /* margin-top: rem; */
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    text-transform: none;
+    color: #778185;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ResultTile .ResultDescription h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 1rem;
+    width: 100%;
+    flex-grow: 1;
+    text-align: left;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: clip;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    text-transform: none;
+}
+
+.ResultsGrid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0.5rem;
+}
+
+.ResultGrid {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.ResultGrid .ImgContainer {
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.ResultGrid .ImgContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.ResultGrid .ResultDescription {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ResultGrid .ResultDescription h1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.3rem;
+    font-size: 16px;
+    line-height: 16px;
+    /* width: 100%; */
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.ResultGrid .ResultDescription h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    /* width: 100%; */
+    text-align: left;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    text-transform: capitalize;
+}
+
+.ResultGrid .ResultDescription p {
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    font-size: 12px;
+    line-height: 14px;
+    /* margin-top: rem; */
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    text-transform: none;
+    color: #778185;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 90%;
+}
+
+.ResultGrid .ResultDescription h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 1rem;
+    width: 100%;
+    flex-grow: 1;
+    text-align: left;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: clip;
+    font-family: "Roboto", sans-serif;
+    color: #000000;
+    text-transform: none;
+}
+
+.PageNo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0.6rem;
+}
+.PageNo .PageBox {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    background-color: #245160;
+    color: white;
+}
+
+.PageNo .PageBox a {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.PageNo .PageBox a::before {
+    margin: 0 !important;
+    padding: 0 !important;
+}

@@ -1,0 +1,42 @@
+.Layout {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 600;
+}
+
+main {
+    /* margin-top: 135px; */
+}
+.disableScroll {
+    /* position: fixed;
+    overflow-y: hidden; */
+}
+
+.Modal {
+    height: 2.5rem;
+    background-color: rgb(42, 42, 42);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+.Modal h1 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

@@ -1,0 +1,161 @@
+.Product {
+    padding: 0.5rem;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 144px;
+}
+.ProgressBar {
+    width: 100%;
+    height: calc(100vh - 190px);
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProductContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.SummaryContainer {
+    width: 100%;
+    height: 14rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0.6rem;
+}
+
+.SummaryContainer img {
+    display: block;
+    width: 40%;
+    height: 100%;
+}
+.Summary {
+    padding-left: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Summary h1 {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.3rem;
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    color: #245160;
+    letter-spacing: 0.1rem;
+}
+
+.Summary h2 {
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 16px;
+    line-height: 16px;
+    width: 100%;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    color: #4a4a4a;
+    text-transform: uppercase;
+}
+.Summary h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+    font-size: 18px;
+    line-height: 16px;
+    width: 100%;
+    text-align: left;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    color: #4a4a4a;
+}
+
+.TagsContainer {
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.TagsContainer .Tag {
+    padding: 0.5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    border: 2px solid #245160;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.5rem;
+    margin-bottom: 0.6rem;
+}
+
+.Description h1 {
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #3d3d3c;
+}
+
+.Description p {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+
+.ControlButton {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    width: 100vw;
+    height: 3.4rem;
+    box-shadow: #245160 0px 3px 14px -2px;
+}
+.Modal {
+    height: 2.5rem;
+    background-color: rgb(42, 42, 42);
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+.Modal h1 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+@media(min-width:450px){
+    .SummaryContainer img {
+        display: block;
+        width: 35%;
+        height: 100%;
+    }
+}

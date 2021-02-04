@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+.SignUp {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color:#FFCAB0;
+    padding-top: 1.3rem;
+    /* background-image: url("../../assets/imgs/X - 1.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    min-height: 700px;
+    position: relative;
+    padding-bottom: 0;
+}
+.SignUpSvg {
+    width: 300px;
+    /* height: 300px; */
+    position: absolute;
+    bottom: 0rem;
+    left: -0.4rem;
+    z-index: 0;
+    overflow: hidden;
+}
+.SignUpSvg img {
+    width: 100%;
+}
+.Container {
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    height: 100%;
+}
+.Logo {
+    margin-top: 1rem;
+    width: 150px;
+    height: 150px;
+}
+
+.Logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.Form {
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.InputField {
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.RememberMe {
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Help {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    z-index: 100;
+}
+
+.Help a {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #204f5f;
+    font-weight: bold;
+}
+.SignUp {
+    position: relative;
+}
+.GoToHome{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+}
+@media (min-width: 700px) {
+    .SignUp {
+        justify-content: center;
+        align-items: center;
+    }
+    .Container {
+        border: 3px solid #0E1E24;
+        border-radius: 20px;
+        height: 80%;
+    }
+    .SignUpSvg {
+        width: 300px;
+        height: 300px;
+        position: fixed;
+        bottom: 2rem;
+        left: -6rem;
+        z-index: 0;
+    }
+    .SignUpSvg img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+@media (min-width: 900px) {
+    .SignUpSvg {
+        width: 300px;
+        height: 300px;
+        position: fixed;
+        bottom: 2rem;
+        left: 1rem;
+        z-index: 0;
+    }
+    .SignUpSvg img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 900px) {
+    .SignUpSvg {
+        width: 400px;
+        bottom: 2rem;
+        left: 4rem;
+        z-index: 0;
+    }
+    .SignUpSvg img {
+        width: 100%;
+        height: 100%;
+    }
+}
