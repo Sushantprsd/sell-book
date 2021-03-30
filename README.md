@@ -1,3 +1,4 @@
+# IMPORTANT NOT OPTIMIZED FOR SCREEN SIZE LESS THAN 500px.
 ## Overview
 
 An app to sell and buy books.
